@@ -31,4 +31,4 @@ def adicionarAluno(alunos, matricula, nome):
 def exibirAlunos(alunos):
   print(alunos)
 def buscarAlunos(alunos, matricula):
-  print(alunos[matricula])
+  return alunos[matricula]
